@@ -1,0 +1,4 @@
+baseURL = "https://bmy4415.github.io"
+languageCode = "en-us"
+title = "bmy4415 blog"
+theme = "kiss"
