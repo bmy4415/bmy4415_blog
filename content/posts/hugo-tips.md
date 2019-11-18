@@ -5,7 +5,7 @@ date: 2019-11-18T19:19:20+09:00
 
 ## How to upload new post
 
-1. Create a markdown file using below command. You can find new find in `contents/posts/<postname>.md`
+1. Create a markdown file using below command. You can find new file in `contents/posts/<postname>.md`
 ```console
 [18/11/19 7:26:22] ❯ hugo new posts/test-post.md
 /Users/bmy4415/Desktop/workspace/bmy4415_blog/content/posts/test-post.md created
