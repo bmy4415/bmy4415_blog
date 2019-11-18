@@ -1,3 +1,7 @@
 [submodule "themes/kiss"]
 	path = themes/kiss
 	url = https://github.com/ribice/kiss
+[submodule "public"]
+	path = public
+	url = https://github.com/bmy4415/bmy4415.github.io.git
+	branch = master
