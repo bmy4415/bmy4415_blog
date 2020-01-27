@@ -3,10 +3,13 @@ title: "Hugo Tips (How to upload new post)"
 date: 2019-11-18T19:19:20+09:00
 ---
 
+<!--more-->
+
 ## How to upload new post
 
 1. Create a markdown file using below command. You can find new file in `contents/posts/<postname>.md`
-```console
+
+```
 [18/11/19 7:26:22] ❯ hugo new posts/test-post.md
 /Users/bmy4415/Desktop/workspace/bmy4415_blog/content/posts/test-post.md created
 
@@ -20,9 +23,9 @@ content
 1 directory, 3 files
 ```
 
-
 1. Update `contents/posts/<postname>.md` file. You can check intermediate result on `localhost:1313` with below command.
-```console
+
+```
 [18/11/19 7:26:34] ❯ hugo server -D
 
                    | EN
@@ -51,9 +54,9 @@ Source changed "/Users/bmy4415/Desktop/workspace/bmy4415_blog/content/posts/hugo
 Total in 17 ms
 ```
 
-
 1. Remove `draft: true` line in `contents/posts/<postname>.md`. If you don't do this, `deploy.sh` will not deploy your post.
-```console
+
+```
 [18/11/19 7:52:48] ❯ head content/posts/hugo-tips.md
 ---
 title: "Hugo Tips (How to upload new post)"
@@ -65,7 +68,8 @@ draft: true
 ```
 
 1. Deploy with `deploy.sh`.
-```console
+
+```
 [18/11/19 7:56:08] ❯ ./deploy.sh
 Deploying updates to GitHub...
 
@@ -96,4 +100,4 @@ To https://github.com/bmy4415/bmy4415.github.io.git
    34ab8c3..05641e3  master -> master
 ```
 
-#### Feel free to make questions or advices to me
+#### Feel free to make any questions or advices to me

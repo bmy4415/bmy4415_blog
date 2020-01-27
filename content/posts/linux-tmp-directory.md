@@ -3,6 +3,8 @@ title: "Linux tmp directory"
 date: 2020-01-18T10:42:42+09:00
 ---
 
+<!--more-->
+
 ## Note
 This blog is written in both Korean and English. Korean is my native language and English is the language I want to learn.
 
@@ -56,3 +58,5 @@ daily_clean_tmps_verbose="YES"				# Mention files deleted
 
 ### 결론
 `/tmp` 디렉토리는 임시 파일을 저장하기 위한 linux의 특별 디렉토리이다. 그래서 이 디렉토리를 사용할 때에는 본인이 원치 않게 파일이 지워질 수 있음을 인지하고 사용하는것이 좋다.
+
+#### Feel free to make any questions or advices to me
